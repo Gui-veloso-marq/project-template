@@ -1,0 +1,17 @@
+<div class="bg-primary-cs mt-3 p-3 d-flex flex-column justify-content-center container w-100">
+    <div class="w-100 d-flex justify-content-between">
+        <p class="m-0 text-white">{{item.grupo}}</p>
+        <i class="bi bi-plus-lg text-white pointer" *ngIf="!showDetails; else hideSession"
+            (click)="showDetails = true"></i>
+        <ng-template #hideSession>
+            <i class="bi bi-dash-lg text-white pointer" (click)="showDetails = false"></i>
+        </ng-template>
+    </div>
+    <!-- <div class="text-white"> -->
+        <!-- <p class="m-0">{{item.grupo}}</p> -->
+        <!-- <p>Itens: <span *ngIf="item.questions.length as qtd">{{qtd}}</span></p> -->
+    <!-- </div> -->
+</div>
+<ng-container *ngIf="showDetails">
+    <app-card-detail *ngFor="let question of item.questions; let i = index" [question]="question" [theme]="getTheme(i)"></app-card-detail>
+</ng-container>

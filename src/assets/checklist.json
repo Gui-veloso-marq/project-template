@@ -1,0 +1,183 @@
+[
+    {
+        "grupo": "PLANO DE GERENCIAMENTO DE RESÍDUOS",
+        "questions": [
+            "O PGRSS está atualizado conforme a RDC 222/18 e Padrão Athena?",
+            "Há uma cópia disponível do PGRSS para consulta?"
+        ]
+    },
+    {
+        "grupo": "COMISSÃO DE RESÍDUOS",
+        "questions": [
+            "A comissão de resíduos se reuniu no último período?",
+            "Foi elaborada ATA na última reunião?"
+        ]
+    },
+    {
+        "grupo": "ACONDICIONAMENTO DOS RESÍDUOS",
+        "questions": [
+            "As cores dos sacos correspondem às identificações da lixeira?",
+            "Está sendo respeitado o limite de utilização de 2/3 para sacos de resíduos e respeitado o limite das caixas para perfurocortante estabelecido pelo fabricante?",
+            "Os sacos plásticos estão sendo acondicionados dentro de lixeiras/contêineres?",
+            "As lixeiras possuem tampa e pedal? (exceto centro cirúrgico e banheiros PCD)",
+            "As lixeiras/contêineres/carros de transporte estão identificados e adequadamente?",
+            "As caixas de perfuro e galões rígidos estão embaladas em saco plástico conforme seu grupo de resíduo, após sua utilização?",
+            "As lixeiras/contêineres/ carros apresentam boas condições de uso?",
+            "O local de geração dispõe de número e capacidade suficiente de lixeiras/ contêineres/ contentores para cada grupo de resíduos?",
+            "Os resíduos foram descartados dentro das respectivas lixeiras/caixa de perfurocortante?"
+        ]
+    },
+    {
+        "grupo": "SEGREGAÇÃO DE RESÍDUOS",
+        "questions": [
+            "Está ocorrendo adequadamente a separação dos resíduos recicláveis?",
+            "Está ocorrendo adequadamente a separação dos resíduos orgânicos?",
+            "A separação correta dos resíduos químicos (perfurocortantes ou não) está ocorrendo?",
+            "A separação correta dos resíduos infectantes (perfurocortantes ou não) está ocorrendo?",
+            "A separação dos rejeitos radioativos está ocorrendo? (Se aplicável)",
+            "A separação correta dos resíduos comuns está ocorrendo?",
+            "Foi visualizado resíduo de frascos, ampolas, outros recipientes de vidro ou agulhas e demais perfurocortantes depositados diretamente dentro de sacos plásticos?"
+        ]
+    },
+    {
+        "grupo": "COLETA INTERNA DE RESÍDUOS",
+        "questions": [
+            "Os sacos de diferentes grupo de resíduos são misturados no momento da coleta interna?",
+            "A coleta é realizada de acordo com a necessidade do local de geração?"
+        ]
+    },
+    {
+        "grupo": "ARMAZENAMENTO TEMPORÁRIO DE RESÍDUOS",
+        "questions": [
+            "Além da identificação de EXPURGO/ SALA DE UTILIDADES há também a identificação de 'ABRIGO TEMPORÁRIO DE RESÍDUOS'?",
+            "O abrigo está identificado como 'ABRIGO TEMPORÁRIO DE RESÍDUOS'?",
+            "O local encontra-se limpo e organizado?",
+            "O número de abrigos temporários é o suficiente para atender a demanda da unidade?",
+            "As caixas de perfurocortantes, tanto para infectantes quanto para químicos, estão armazenadas dentro dos contêineres/lixeiras ou em prateleiras?",
+            "O local está sendo utilizado somente para o fim a que se destina?"
+        ]
+    },
+    {
+        "grupo": "ARMAZENAMENTO EXTERNO DE RESÍDUOS",
+        "questions": [
+            "Há armazenamento de resíduos fora dos abrigos externos (exceto recicláveis)?",
+            "Os sacos estão armazenados nos abrigos corretos? (saco preto no abrigo de resíduo comum| saco branco no abrigo de resíduo infectante| saco laranja no abrigo de resíduo químico| sacos coloridos no abrigo de recicláveis, ou container/gaiola fora do abrigo ou no abrigo de comum em container/gaiola separada)",
+            "O local encontra-se limpo e organizado?",
+            "A proteção inferior nas portas para dificultar o acesso de vetores está em boas condições?",
+            "A tela de proteção contra roedores e vetores nas portas estão em boas condições?",
+            "Os abrigos externos são mantidos trancados?",
+            "O abrigo de resíduo está sendo utilizado somente para o fim a que se destina?",
+            "Os abrigos estão com identificação na porta de acordo com o tipo de resíduo armazenado?",
+            "Os pisos, paredes e tetos estão em boas condições?",
+            "O ponto de luz está em bom funcionamento?",
+            "Os resíduos estão armazenados dentro de contêineres fechados, com tampa?"
+        ]
+    },
+    {
+        "grupo": "ÁREAS ASSISTENCIAIS",
+        "questions": [
+            "Não há lixeira de infectante nos postos de enfermagem?",
+            "Nos postos de enfermagem há lixeiras de coleta seletiva? (Considerar as limitações de infraestrutura)",
+            "Os resíduos que tiveram contato com paciente são descartados apenas em locais sujos?",
+            "Nas UTIs e Semi UTIs, os resíduos infectantes dos pacientes são descartados nas lixeiras beira leito de cada cama/berço?"
+        ]
+    },
+    {
+        "grupo": "CENTRO CIRÚGICO E OBSTÉTRICO - Hospitais e Salas de peq. procedimentos",
+        "questions": [
+            "Há caixa de perfurocortante infectante dentro da sala cirúrgica?",
+            "Há caixa rígido/caixa de perfurocortante químico dentro da sala cirúrgica?",
+            "Os explantes são encaminhados à esterilização e mantidos na unidade?",
+            "Todos resíduos (inclusive EPIs) utilizados nas salas cirúrgicas são descartados dentro da sala cirúrgica que ocorreu o procedimento?",
+            "Peças anatômicas (membros) do ser humano; produto de fecundação sem sinais vitais, com peso menor que 500 gramas ou estatura menor que 25 centímetros ou idade gestacional menor que 20 semanas, que não tenham valor científico ou legal e não tenha havido requisição pelo paciente ou seus familiares são armazenados em sacos vermelhos com símbolo de infectante?",
+            "Peças anatômicas (órgãos e tecidos), incluindo a placenta, e outros resíduos provenientes de procedimentos cirúrgicos ou de estudos anatomopatológicos ou de confirmação diagnóstica são descartados em sacos brancos com símbolo de infectante?",
+            "Os resíduos de lipoaspiração são armazenados em coletores rígidos, embalados em sacos brancos e descartados como resíduos infectantes?"
+        ]
+    },
+    {
+        "grupo": "ÁREAS ADMINISTRATIVAS/ ÁREAS COMUNS",
+        "questions": [
+            "Há coleta seletiva em todas as áreas administrativas?",
+            "Nos banheiros há lixeiras de resíduos comuns (exceto isolamento e quimioterapia)?",
+            "Os banheiros para PCD possuem lixeiras de comum com tampa basculante?",
+            "Há coletor de copos ou lixeiras de resíduos plásticos próximos a cada filtro de água/bebedouro?"
+        ]
+    },
+    {
+        "grupo": "CONSULTÓRIOS (Observar o tipo de uso do consultório)",
+        "questions": [
+            "Há apenas lixeiras de resíduos comuns dentro dos consultórios (exceto ginecológico, urológico e proctológico)?",
+            "Há lixeiras de resíduos infectantes e comuns dentro dos consultórios ginecológicos, urológicos e proctológicos?"
+        ]
+    },
+    {
+        "grupo": "FARMÁCIA",
+        "questions": [
+            "As ampolas e frascos de medicamentos descartados da farmácia são acondicionados nos galões rígidos/caixas perfurocortante laranja como resíduos químicos?",
+            "Os restos de medicamentos controlados pela Portaria 344 (psicotrópicos) são descartados separadamente dos demais resíduos e acondicionados em galões rígidos/caixas perfurocortante laranja?",
+            "A unidade declara que segue os procedimentos de descarte dos medicamentos controlados pela Portaria 344 da Vigilância Sanitária Local?"
+        ]
+    },
+    {
+        "grupo": "LABORATÓRIO",
+        "questions": [
+            "Tubos de coleta de sangue e hemoculturas são descartados em sacos vermelhos com simbologia de infectante?",
+            "Os resíduos líquidos de corantes são descartados em galões rígidos? (informar NA caso seja destinado para a rede de esgoto)",
+            "Frascos de reagentes para laboratório, inclusive os recipientes contaminados por estes são descartados como resíduos químicos?",
+            "Sobras de amostras de laboratório contendo sangue ou líquidos corpóreos, são fechados e descartados como resíduos infectantes?"
+        ]
+    },
+    {
+        "grupo": "ISOLAMENTO E QUIMIOTERAPIA",
+        "questions": [
+            "Todos os resíduos de pacientes em isolamento são descartados no sacos brancos com símbolo de infectante?",
+            "Todos os resíduos de pacientes em isolamento (suspeitos ou confirmados por príons) são descartados em saco vermelho com símbolo de infectante?",
+            "Os resíduos de quimioterapia são descartados como resíduos químicos?",
+            "Os resíduos do banheiro de pacientes em tratamento quimioterápico são descartados como resíduos químicos?"
+        ]
+    },
+    {
+        "grupo": "MANUTENÇÃO / TI",
+        "questions": [
+            "Resíduos de pilhas e baterias são segregados dos demais e descartados corretamente?",
+            "Resíduos de lâmpadas são segregados dos demais e descartados corretamente?",
+            "Resíduos eletroeletrônicos são segregados dos demais e descartados corretamente?",
+            "Resíduos perigosos da manutenção são segregados dos demais e descartados corretamente?",
+            "Filtros de ar e outros similares de ambientes hospitalares são descartados em sacos brancos com símbolo de infectante?",
+            "A unidade está com a certidão de anuência da concessionária de tratamento de esgoto vigente?",
+            "A periodicidade de limpeza da caixa separadora de gordura e da fossa filtro estão sendo respeitadas?",
+            "Foi apresentada evidência (MTR) da última limpeza e destinação?"
+        ]
+    },
+    {
+        "grupo": "RAIO X (para equipamentos de raio X com revelação manual)",
+        "questions": [
+            "Os efluentes de revelador e fixador são filtrados antes de irem a rede de esgoto ou retornam ao galão para descarte?",
+            "Os filtros ou galões cheios de efluentes do raio X são encaminhados a empresa especializada no tratamento deste resíduo?",
+            "Os filmes inutilizados são encaminhados a empresa especializada no tratamento deste resíduo?",
+            "Os aventais plumbíferos condenados são encaminhados para uma destinação ambientalmente correta?"
+        ]
+    },
+    {
+        "grupo": "GORDURA E ÓLEO DE COZINHA",
+        "questions": [
+            "Foi apresentada evidência da reciclagem do óleo de cozinha?"
+        ]        
+    },
+    {
+        "grupo": "COLETA EXTERNA",
+        "questions": [
+            "Há coleta adequada para resíduo comum, orgânico, infectante, químico e recicláveis?",
+            "Todos os resíduos estão sendo coletados mediante a emissão de MTR's?",
+            "Unidade utiliza o sistema Eloverde para emitir os MTR's ?"
+        ]        
+    },
+    {
+        "grupo": "RECURSOS NATURAIS",
+        "questions": [
+            "Foi detectado desperdício/vazamento de água?",
+            "Foi detectado desperdício de energia elétrica em algum local?",
+            "Foi detectado algum indício de derramamento de produtos químicos em solo na unidade?"
+        ]        
+    }
+]

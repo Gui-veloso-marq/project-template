@@ -1,0 +1,36 @@
+<div>
+    <div class="bg-primary-cs px-3 py-2 text-white d-flex justify-content-between">
+        <p class="m-0">Capturar foto</p>
+        <i class="bi bi-x-lg" (click)="closeCamera(false)"></i>
+    </div>
+    <video #video autoplay class="" width="{{deviceWidth}}" height="{{deviceHeight}}" *ngIf="capturando"></video>
+    <canvas #canvas *ngIf="!capturando" class="vw-100 vh-100"></canvas>
+    
+    <div class="footer d-flex justify-content-around w-100 pb-2" *ngIf="capturando">
+        <button class="button-primary w-50 m-1 d-flex align-items-center justify-content-center" (click)="capturarImagem()">
+            <i class="bi bi-camera-fill me-2" style="font-size: 1.5rem;"></i>
+            <p class="m-0">
+                Tirar foto
+            </p>
+        </button>
+        <button class="button-primary w-50 m-1 d-flex align-items-center justify-content-center" (click)="trocarCamera()">
+            <img src="/areascomuns/images/replace.png" class="me-2" alt="">
+            <p class="m-0">
+                Trocar Câmera
+            </p>
+        </button>
+    </div>
+    
+    <div class="footer d-flex flex-column w-100 p-2" *ngIf="!capturando" style="height: fit-content;">
+        <button class="button-primary mb-2 d-flex align-items-center justify-content-center" style="height: 2.5rem;"
+            (click)="confirmarCaptura()">
+            <p class="m-0">Confirmar envio</p>
+            <i class="bi bi-check-lg ms-2" style="font-size: 1.5rem;"></i>
+        </button>
+        <button class="button-primary d-flex align-items-center justify-content-center" style="height: 2.5rem;"
+        (click)="capturarNovamente()">
+            <p class="m-0">Tirar outrao</p>
+            <img src="/areascomuns/images/replace.png" class="ms-2" alt="">
+        </button>
+    </div>
+</div>

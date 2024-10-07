@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+$color-primary: #06508a;
+
+.bg-primary-cs {
+    background-color: $color-primary;
+}
+
+.text-primary-cs {
+    color: $color-primary;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
+}
+
+.button-primary {
+    background-color: $color-primary;
+    border: none;
+    border-radius: 3px;
+    padding: 0.2rem 1rem;
+    color: #FFF;
+    
+    // & :hover {
+    //     background-color: $color-primary-darkest;
+    // }
+
+    &:disabled {
+        opacity: 0.65;
+    }
+}
+
+.border-primary-cs {
+    border: 1px solid $color-primary;
+}
