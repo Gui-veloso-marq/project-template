@@ -27,9 +27,25 @@ export class QuestionarioService {
    loadQuestions(): void {
     this.http.get(`./assets/checklist.json`).subscribe((res: any) => {
       this.questionario = res;
-      this.answer.answers = res.reduce((acc, c)=> { return [...acc, ...c.questions]}, []).map(item => { return { item: item, answer: ''} })
+      const questions = res.reduce((acc, c) => {
+        const normalQuestions = c.questions.map(q => ({
+          item: q,
+          answer: ''
+        }));
+
+        const extraQuestions = Array.isArray(c['extraQuestions']) 
+          ? c['extraQuestions'].map(eq => ({
+              item: eq,
+              answer: ''
+            })) 
+          : [];
+  
+        return [...acc, ...normalQuestions, ...extraQuestions];
+      }, []);
+      
+      this.answer.answers = questions;
     });
-   }
+  }
 
 
    sendAnswer(answer: Answer): void {

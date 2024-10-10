@@ -1,183 +1,294 @@
 [
     {
-        "grupo": "PLANO DE GERENCIAMENTO DE RESÍDUOS",
-        "questions": [
-            "O PGRSS está atualizado conforme a RDC 222/18 e Padrão Athena?",
-            "Há uma cópia disponível do PGRSS para consulta?"
-        ]
-    },
-    {
-        "grupo": "COMISSÃO DE RESÍDUOS",
-        "questions": [
-            "A comissão de resíduos se reuniu no último período?",
-            "Foi elaborada ATA na última reunião?"
-        ]
-    },
-    {
         "grupo": "ACONDICIONAMENTO DOS RESÍDUOS",
-        "questions": [
-            "As cores dos sacos correspondem às identificações da lixeira?",
-            "Está sendo respeitado o limite de utilização de 2/3 para sacos de resíduos e respeitado o limite das caixas para perfurocortante estabelecido pelo fabricante?",
-            "Os sacos plásticos estão sendo acondicionados dentro de lixeiras/contêineres?",
-            "As lixeiras possuem tampa e pedal? (exceto centro cirúrgico e banheiros PCD)",
-            "As lixeiras/contêineres/carros de transporte estão identificados e adequadamente?",
-            "As caixas de perfuro e galões rígidos estão embaladas em saco plástico conforme seu grupo de resíduo, após sua utilização?",
-            "As lixeiras/contêineres/ carros apresentam boas condições de uso?",
-            "O local de geração dispõe de número e capacidade suficiente de lixeiras/ contêineres/ contentores para cada grupo de resíduos?",
-            "Os resíduos foram descartados dentro das respectivas lixeiras/caixa de perfurocortante?"
-        ]
-    },
+        "questions": [{
+            "title":  "As cores dos sacos correspondem às identificações da lixeira?",
+            "extraQuestions":[
+                "1. saco branco na lixeira de papel",
+                "2. saco branco na lixeira de comum",
+                "3. saco branco na lixeira de plástico",
+                "4. saco branco na lixeira de químico",
+                "5. saco preto na lixeira de papel",
+                "6. saco preto na lixeira de plástico",
+                "7. saco preto da lixeira de químico",
+                "8. saco preto na lixeira de infectante",
+                "9. saco vermelho sem simbologia na lixeira de infectante",
+                "10. saco vermelho sem simbologia na lixeira de químico",
+                "11. saco vermelho sem simbologia na lixeira de papel",
+                "12. saco vermelho sem simbologia na lixeira de comum",
+                "13. saco vermelho com simbologia de infectante na lixeira de plástico",
+                "14. saco vermelho com simbologia de infectante na lixeira de químico",
+                "15. saco azul na lixeira de plástico",
+                "16. saco azul na lixeira de infectante",
+                "17. saco azul na lixeira de comum",
+                "18. saco azul na lixeira de químico",
+                "19. saco laranja na lixeira de plástico",
+                "20. saco laranja na lixeira de papel",
+                "21. saco laranja na lixeira de comum",
+                "22. saco laranja na lixeira de infectante",
+                "23. saco preto na lixeira de orgânicos"
+            ]
+        },
+        {
+            "title":"Está sendo respeitado o limite de utilização de 2/3 para sacos de resíduos e respeitado o limite das caixas para perfurocortante estabelecido pelo fabricante?",
+            "extraQuestions":[
+                "1. Lixeira acima da capacidade orientada pela RDC 222/18",
+                "2. Caixa de perfurocortante acima do  limite estabelecido pelo fabricante."				
+            ]
+        },
+        {
+            "title":"2.3 Os sacos plásticos estão sendo acondicionados dentro de lixeiras/contêineres?",
+            "extraQuestions":[
+                "1. Evidenciado saco pendurado para descarte de resíduos",
+                "2. Evidenciado saco no chão do abrigo temporário/ expurgo",
+                "3. Evidenciado saco no chão do abrigo externo",
+                "4. Evidenciado saco no chão de áreas indevidas da unidade",
+                "5. Evidenciado saco sob a tampa do contêiner"				
+            ]
+        },
+        {
+            "title":"2.4 As lixeiras possuem tampa e pedal? (exceto centro cirúrgico e banheiros PCD)"
+        },
+        {
+            "title":"2.5 As lixeiras/contêineres/carros de transporte estão identificados e adequadamente?",
+            "extraQuestions":[
+                "1. Lixeira sem identificação",
+                "2. Contêiner sem identificação",
+                "3. Carro de transporte sem identificação",
+                "4. Identificação não conforme com o padrão estabelecido"				
+
+            ]
+        },
+        {
+            "title":"2.6 As caixas de perfuro e galões rígidos estão embaladas em saco plástico conforme seu grupo de resíduo, após sua utilização?",
+            "extraQuestions":[
+                "1. Caixa amarela sem saco no ATR/expurgo/abrigo externo",
+                "2. Caixa amarela no saco laranja",
+                "3. Caixa amarela em saco (preto, azul, vermelho, amarelo,verde, marrom)",
+                "4. Caixa laranja sem saco no ATR/expurgo/abrigo externo",
+                "5. Caixa laranja no saco branco",
+                "6. Caixa laranja em saco (preto, azul, vermelho, amarelo,verde, marrom)"				
+            ]
+        },
+        {
+           "title": "2.7 As lixeiras/contêineres/ carros apresentam boas condições de uso?",
+           "extraQuestions":[
+            "1. Lixeira quebrada/pedal quebrado",
+            "2. Lixeira suja",
+            "3. Contêiner quebrado",
+            "4. Contêiner sujo",
+            "5. Carro de transporte quebrado",
+            "6. Carro de transporte sujo"				
+           ] 
+        },
+        {
+            "title":"2.8 O local de geração dispõe de número e capacidade suficiente e adequado de contentores para cada grupo de resíduos, inclusive basculantes nos banheiros PcD?",
+            "extraQuestions":[
+                "1. Banheiros pcd sem lixeira basculante",
+                "2. Ausência de coleta seletiva",
+                "3. Ausêcia de resíduo comum",
+                "4. Ausência de resíduo químico",
+                "5. Ausência de resíduos infectante",
+                "6. Ausência de caixa coletora de perfurocortantes laranja",
+                "7. Ausência de caixa coletora de perfurocortantes amarela",
+                "8. Ausência de lixeira/contêiner para resíduo eletrônico",
+                "9. Ausência de lixeira/contêiner para químicos da manutenção", 
+                "10. Ausência de lixeira/contêiner para lâmpadas",
+                "11. Ausência de lixeira para pilhas e baterias (engenharia clínica, manutenção, almoxarifado (se aplicável))",
+                "12. Lixeira de resíduo infectante em lugar não gerador",
+                "13. Lixeira de resíduo químico em lugar não gerador",
+                "14. Lixeira de resíduo comum em lugar não gerador (isolamentos/quimioterápicos)"				
+            ]
+        },
+        {
+            "title":"2.9 Os resíduos foram descartados dentro das respectivas lixeiras/caixa de perfurocortante?",
+            "extraQuestions":[
+                "1. Resíduo no chão",
+                "2. Resíduo na mesa da copa ou cama do repouso",
+                "3. Resíduo na pia",
+                "4. Agulha ou ampola sobre a caixa"				
+            ]
+        }
+    ]},
+    
     {
         "grupo": "SEGREGAÇÃO DE RESÍDUOS",
-        "questions": [
-            "Está ocorrendo adequadamente a separação dos resíduos recicláveis?",
-            "Está ocorrendo adequadamente a separação dos resíduos orgânicos?",
-            "A separação correta dos resíduos químicos (perfurocortantes ou não) está ocorrendo?",
-            "A separação correta dos resíduos infectantes (perfurocortantes ou não) está ocorrendo?",
-            "A separação dos rejeitos radioativos está ocorrendo? (Se aplicável)",
-            "A separação correta dos resíduos comuns está ocorrendo?",
-            "Foi visualizado resíduo de frascos, ampolas, outros recipientes de vidro ou agulhas e demais perfurocortantes depositados diretamente dentro de sacos plásticos?"
-        ]
-    },
-    {
-        "grupo": "COLETA INTERNA DE RESÍDUOS",
-        "questions": [
-            "Os sacos de diferentes grupo de resíduos são misturados no momento da coleta interna?",
-            "A coleta é realizada de acordo com a necessidade do local de geração?"
-        ]
-    },
-    {
-        "grupo": "ARMAZENAMENTO TEMPORÁRIO DE RESÍDUOS",
-        "questions": [
-            "Além da identificação de EXPURGO/ SALA DE UTILIDADES há também a identificação de 'ABRIGO TEMPORÁRIO DE RESÍDUOS'?",
-            "O abrigo está identificado como 'ABRIGO TEMPORÁRIO DE RESÍDUOS'?",
-            "O local encontra-se limpo e organizado?",
-            "O número de abrigos temporários é o suficiente para atender a demanda da unidade?",
-            "As caixas de perfurocortantes, tanto para infectantes quanto para químicos, estão armazenadas dentro dos contêineres/lixeiras ou em prateleiras?",
-            "O local está sendo utilizado somente para o fim a que se destina?"
-        ]
-    },
-    {
-        "grupo": "ARMAZENAMENTO EXTERNO DE RESÍDUOS",
-        "questions": [
-            "Há armazenamento de resíduos fora dos abrigos externos (exceto recicláveis)?",
-            "Os sacos estão armazenados nos abrigos corretos? (saco preto no abrigo de resíduo comum| saco branco no abrigo de resíduo infectante| saco laranja no abrigo de resíduo químico| sacos coloridos no abrigo de recicláveis, ou container/gaiola fora do abrigo ou no abrigo de comum em container/gaiola separada)",
-            "O local encontra-se limpo e organizado?",
-            "A proteção inferior nas portas para dificultar o acesso de vetores está em boas condições?",
-            "A tela de proteção contra roedores e vetores nas portas estão em boas condições?",
-            "Os abrigos externos são mantidos trancados?",
-            "O abrigo de resíduo está sendo utilizado somente para o fim a que se destina?",
-            "Os abrigos estão com identificação na porta de acordo com o tipo de resíduo armazenado?",
-            "Os pisos, paredes e tetos estão em boas condições?",
-            "O ponto de luz está em bom funcionamento?",
-            "Os resíduos estão armazenados dentro de contêineres fechados, com tampa?"
-        ]
-    },
-    {
-        "grupo": "ÁREAS ASSISTENCIAIS",
-        "questions": [
-            "Não há lixeira de infectante nos postos de enfermagem?",
-            "Nos postos de enfermagem há lixeiras de coleta seletiva? (Considerar as limitações de infraestrutura)",
-            "Os resíduos que tiveram contato com paciente são descartados apenas em locais sujos?",
-            "Nas UTIs e Semi UTIs, os resíduos infectantes dos pacientes são descartados nas lixeiras beira leito de cada cama/berço?"
-        ]
-    },
-    {
-        "grupo": "CENTRO CIRÚGICO E OBSTÉTRICO - Hospitais e Salas de peq. procedimentos",
-        "questions": [
-            "Há caixa de perfurocortante infectante dentro da sala cirúrgica?",
-            "Há caixa rígido/caixa de perfurocortante químico dentro da sala cirúrgica?",
-            "Os explantes são encaminhados à esterilização e mantidos na unidade?",
-            "Todos resíduos (inclusive EPIs) utilizados nas salas cirúrgicas são descartados dentro da sala cirúrgica que ocorreu o procedimento?",
-            "Peças anatômicas (membros) do ser humano; produto de fecundação sem sinais vitais, com peso menor que 500 gramas ou estatura menor que 25 centímetros ou idade gestacional menor que 20 semanas, que não tenham valor científico ou legal e não tenha havido requisição pelo paciente ou seus familiares são armazenados em sacos vermelhos com símbolo de infectante?",
-            "Peças anatômicas (órgãos e tecidos), incluindo a placenta, e outros resíduos provenientes de procedimentos cirúrgicos ou de estudos anatomopatológicos ou de confirmação diagnóstica são descartados em sacos brancos com símbolo de infectante?",
-            "Os resíduos de lipoaspiração são armazenados em coletores rígidos, embalados em sacos brancos e descartados como resíduos infectantes?"
-        ]
-    },
-    {
-        "grupo": "ÁREAS ADMINISTRATIVAS/ ÁREAS COMUNS",
-        "questions": [
-            "Há coleta seletiva em todas as áreas administrativas?",
-            "Nos banheiros há lixeiras de resíduos comuns (exceto isolamento e quimioterapia)?",
-            "Os banheiros para PCD possuem lixeiras de comum com tampa basculante?",
-            "Há coletor de copos ou lixeiras de resíduos plásticos próximos a cada filtro de água/bebedouro?"
-        ]
-    },
-    {
-        "grupo": "CONSULTÓRIOS (Observar o tipo de uso do consultório)",
-        "questions": [
-            "Há apenas lixeiras de resíduos comuns dentro dos consultórios (exceto ginecológico, urológico e proctológico)?",
-            "Há lixeiras de resíduos infectantes e comuns dentro dos consultórios ginecológicos, urológicos e proctológicos?"
-        ]
-    },
-    {
-        "grupo": "FARMÁCIA",
-        "questions": [
-            "As ampolas e frascos de medicamentos descartados da farmácia são acondicionados nos galões rígidos/caixas perfurocortante laranja como resíduos químicos?",
-            "Os restos de medicamentos controlados pela Portaria 344 (psicotrópicos) são descartados separadamente dos demais resíduos e acondicionados em galões rígidos/caixas perfurocortante laranja?",
-            "A unidade declara que segue os procedimentos de descarte dos medicamentos controlados pela Portaria 344 da Vigilância Sanitária Local?"
-        ]
-    },
-    {
-        "grupo": "LABORATÓRIO",
-        "questions": [
-            "Tubos de coleta de sangue e hemoculturas são descartados em sacos vermelhos com simbologia de infectante?",
-            "Os resíduos líquidos de corantes são descartados em galões rígidos? (informar NA caso seja destinado para a rede de esgoto)",
-            "Frascos de reagentes para laboratório, inclusive os recipientes contaminados por estes são descartados como resíduos químicos?",
-            "Sobras de amostras de laboratório contendo sangue ou líquidos corpóreos, são fechados e descartados como resíduos infectantes?"
-        ]
-    },
-    {
-        "grupo": "ISOLAMENTO E QUIMIOTERAPIA",
-        "questions": [
-            "Todos os resíduos de pacientes em isolamento são descartados no sacos brancos com símbolo de infectante?",
-            "Todos os resíduos de pacientes em isolamento (suspeitos ou confirmados por príons) são descartados em saco vermelho com símbolo de infectante?",
-            "Os resíduos de quimioterapia são descartados como resíduos químicos?",
-            "Os resíduos do banheiro de pacientes em tratamento quimioterápico são descartados como resíduos químicos?"
-        ]
-    },
-    {
-        "grupo": "MANUTENÇÃO / TI",
-        "questions": [
-            "Resíduos de pilhas e baterias são segregados dos demais e descartados corretamente?",
-            "Resíduos de lâmpadas são segregados dos demais e descartados corretamente?",
-            "Resíduos eletroeletrônicos são segregados dos demais e descartados corretamente?",
-            "Resíduos perigosos da manutenção são segregados dos demais e descartados corretamente?",
-            "Filtros de ar e outros similares de ambientes hospitalares são descartados em sacos brancos com símbolo de infectante?",
-            "A unidade está com a certidão de anuência da concessionária de tratamento de esgoto vigente?",
-            "A periodicidade de limpeza da caixa separadora de gordura e da fossa filtro estão sendo respeitadas?",
-            "Foi apresentada evidência (MTR) da última limpeza e destinação?"
-        ]
-    },
-    {
-        "grupo": "RAIO X (para equipamentos de raio X com revelação manual)",
-        "questions": [
-            "Os efluentes de revelador e fixador são filtrados antes de irem a rede de esgoto ou retornam ao galão para descarte?",
-            "Os filtros ou galões cheios de efluentes do raio X são encaminhados a empresa especializada no tratamento deste resíduo?",
-            "Os filmes inutilizados são encaminhados a empresa especializada no tratamento deste resíduo?",
-            "Os aventais plumbíferos condenados são encaminhados para uma destinação ambientalmente correta?"
-        ]
-    },
-    {
-        "grupo": "GORDURA E ÓLEO DE COZINHA",
-        "questions": [
-            "Foi apresentada evidência da reciclagem do óleo de cozinha?"
-        ]        
-    },
-    {
-        "grupo": "COLETA EXTERNA",
-        "questions": [
-            "Há coleta adequada para resíduo comum, orgânico, infectante, químico e recicláveis?",
-            "Todos os resíduos estão sendo coletados mediante a emissão de MTR's?",
-            "Unidade utiliza o sistema Eloverde para emitir os MTR's ?"
-        ]        
-    },
-    {
-        "grupo": "RECURSOS NATURAIS",
-        "questions": [
-            "Foi detectado desperdício/vazamento de água?",
-            "Foi detectado desperdício de energia elétrica em algum local?",
-            "Foi detectado algum indício de derramamento de produtos químicos em solo na unidade?"
-        ]        
+        "questions": [{
+                "title": "3.1 Está ocorrendo adequadamente a separação dos resíduos recicláveis?",
+                "extraQuestions": [
+                    "1. Papel na lixeira de plástico",
+                    "2. Papel na lixeira de metal",
+                    "3. Papel na lixeira de vidro",
+                    "4. Papel na lixeira de comum",
+                    "5. Papel na lixeira de infectante",
+                    "6. Papel na lixeira de químico",
+                    "7. Plástico na lixeira de papel",
+                    "8. Plástico na lixeira de metal",
+                    "9. Plástico na lixeira de vidro",
+                    "10. Plástico na lixeira de comum",
+                    "11. Plástico na lixeira de infectante",
+                    "12. Plástico na lixeira de químico",
+                    "13. Metal na lixeira de plástico",
+                    "14. Metal na lixeira de papel",
+                    "15. Metal na lixeira de vidro",
+                    "16. Metal na lixeira de comum",
+                    "17. Metal na lixeira de infectante",
+                    "18. Metal na lixeira de químico",
+                    "19. Vidro na lixeira de papel",
+                    "20. Vidro na lixeira de plástico",
+                    "21. Vidro na lixeira de metal",
+                    "22. Vidro na lixeira de comum",
+                    "23. Vidro na lixeira de infectante",
+                    "24. Vidro na lixeira de químico"
+                ]
+            },
+
+            {
+                "title": "3.2 Está ocorrendo adequadamente a separação dos resíduos orgânicos?",
+                "extraQuestions": [
+                    "1. Evidenciado resíduo orgânico na lixeira de resíduo comum na cozinha",
+                    "2. Evidenciado resíduo orgânico na lixeira de resíduo plástico na cozinha"
+                ]
+            },
+            {
+                "title": "3.3 A separação correta dos resíduos químicos (perfurocortantes ou não) está ocorrendo?",
+                "extraQuestions": [
+                    "1. Ampola, frascos de contrastes e de reagentes de vidro na caixa de perfurocortante amarela",
+                    "2. Resíduos químicos e quimioterápicos na lixeira de resíduo infectante",
+                    "3. Resíduos químicos e quimioterápicos na lixeira de resíduo comum",
+                    "4. Resíduos químicos e quimioterápicos na lixeira de resíduos recicláveis"
+                ]
+            },
+            {
+                "title": "3.4 A separação correta dos resíduos infectantes (perfurocortantes ou não) está ocorrendo?",
+                "extraQuestions": [
+                    "1. Agulha, lancetas, bisturis na caixa de perfurocortante laranja",
+                    "2. Resíduo infectante na lixeira de resíduo químico",
+                    "3. Resíduo infectante na lixeira de resíduo comum",
+                    "4. Resíduo infectante na lixeira de resíduo reciclável"
+                ]
+            },
+            {
+                "title": "3.5 A separação dos rejeitos radioativos está ocorrendo? (Se aplicável)",
+                "extraQuestions": []
+            },
+            {
+                "title": "3.6 A separação correta dos resíduos comuns está ocorrendo?",
+                "extraQuestions": [
+                    "1. Resíduo comum na lixeira de resíduo químico",
+                    "2. Resíduo comum na lixeira de resíduo infectante",
+                    "3. Resíduo comum na lixeira de resíduo de papel reciclável",
+                    "4. Resíduo comum na lixeira de resíduo plástico reciclável",
+                    "5. Resíduo comum na lixeira de resíduo vidro reciclável",
+                    "6. Resíduo comum na lixeira de resíduo metal reciclável",
+                    "7. Resíduo comum na lixeira de resíduo orgânico"
+                ]
+            },
+            {
+                "title": "3.7 Foi visualizado resíduo de frascos, ampolas, outros recipientes de vidro ou agulhas e demais perfurocortantes depositados diretamente dentro de sacos plásticos?",
+                "extraQuestions": []
+            },
+            {
+                "title": "3.8 Resíduos de pilhas e baterias são segregados dos demais e descartados corretamente?",
+                "extraQuestions": []
+            },
+            {
+                "title": "3.9 Resíduos de lâmpadas são segregados dos demais e descartados corretamente?",
+                "extraQuestions": []
+            },
+            {
+                "title": "3.10 Resíduos eletroeletrônicos são segregados dos demais e descartados corretamente?",
+                "extraQuestions": []
+            },
+            {
+                "title": "3.11 Resíduos perigosos da manutenção são segregados dos demais e descartados corretamente?",
+                "extraQuestions": []
+            },
+            {
+                "title": "3.12 Está ocorrendo adequadamente a segregação dos tubos de coleta de sangue e hemoculturas, todos os resíduos de pacientes em isolamento (suspeitos ou confirmados por príons), assim como das peças anatômicas?",
+                "extraQuestions": [
+                    "1. Tubos de coleta de sangue no saco branco",
+                    "2. Hemocultura segregada no saco branco",
+                    "3. Peças anatômicas (membros), sem sinais vitais, com peso menor que 500 gramas ou estatura menor que 25 centímetros ou idade gestacional menor que 20 semanas, sendo segregados no saco branco"
+                ]
+            }]
+        },
+
+
+        {
+            "grupo": "COLETA INTERNA DE RESÍDUOS",
+            "questions": [
+                {
+                    "title": "4.1 Os sacos de diferentes grupos de resíduos são misturados no momento da coleta interna?",
+                    "extraQuestions": [
+                        "1. Saco laranja no contêiner/carro coletor de resíduo infectante",
+                        "2. Saco laranja no contêiner/carro coletor de resíduo comum",
+                        "3. Saco laranja no contêiner/carro coletor de resíduos recicláveis",
+                        "4. Saco laranja no contêiner/carro coletor de resíduo orgânico",
+                        "5. Saco branco no contêiner/carro coletor de resíduo comum",
+                        "6. Saco branco no contêiner/carro coletor de resíduo químico",
+                        "7. Saco branco no contêiner/carro coletor de resíduos recicláveis",
+                        "8. Saco branco no contêiner/carro coletor de resíduo orgânico",
+                        "9. Saco preto no contêiner/carro coletor de resíduo infectante",
+                        "10. Saco preto no contêiner/carro coletor de resíduo químico",
+                        "11. Saco de recicláveis no contêiner/carro coletor de resíduo infectante",
+                        "12. Saco de recicláveis no contêiner/carro coletor de resíduo químico"
+                    ]
+                },
+                {
+                    "title": "4.3 Os sacos estão sendo transportados em carros de transporte?",
+                    "extraQuestions": []
+                }
+            ]
+        },
+        {
+            "grupo": "ARMAZENAMENTO TEMPORÁRIO DE RESÍDUOS",
+            "questions": [
+                {
+                    "title": "5.2 O local encontra-se limpo e organizado?",
+                    "extraQuestions": []
+                },
+                {
+                    "title": "5.4 As caixas de perfurocortantes, tanto para infectantes quanto para químicos, estão armazenadas dentro dos contêineres/lixeiras ou em prateleiras?",
+                    "extraQuestions": [
+                        "1. Caixa no chão",
+                        "2. Caixa sobre a tampa do contêiner",
+                        "3. Caixa diretamente sobre a pia/bancada ou área molhada"
+                    ]
+                },
+                {
+                    "title": "5.5 O local está sendo utilizado somente para o fim a que se destina?",
+                    "extraQuestions": []
+                }
+            ]
+        },
+        {
+            "grupo": "ARMAZENAMENTO EXTERNO DE RESÍDUOS",
+            "questions": [
+                {
+                    "title": "6.1 Há armazenamento de resíduos fora dos abrigos externos (exceto recicláveis)?",
+                    "extraQuestions": []
+                },
+                {
+                    "title": "6.2 Os sacos estão armazenados nos abrigos corretos?",
+                    "extraQuestions": [
+                        "1. Saco preto no abrigo de resíduo infectante",
+                        "2. Saco preto no abrigo de resíduo químico",
+                        "3. Saco branco no abrigo de resíduo comum",
+                        "4. Saco branco no abrigo de resíduo químico",
+                        "5. Saco laranja no abrigo de resíduo infectante",
+                        "6. Saco laranja no abrigo de resíduo comum"
+                    ]
+                },
+                {
+                    "title": "6.3 O local encontra-se limpo e organizado?",
+                    "extraQuestions": []
+                },
+                {
+                    "title": "6.11 Os resíduos estão armazenados dentro de contêineres fechados, com tampa?",
+                    "extraQuestions": []
+                }
+            ]
+        
     }
 ]

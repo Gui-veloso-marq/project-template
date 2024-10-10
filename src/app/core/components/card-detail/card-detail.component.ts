@@ -8,6 +8,7 @@ import { CameraService } from '../../services/camera/camera.service';
   styleUrl: './card-detail.component.scss'
 })
 export class CardDetailComponent {
+
   constructor(
     private questionarioService: QuestionarioService, 
     public cameraService: CameraService) {
@@ -15,7 +16,7 @@ export class CardDetailComponent {
   }
 
   @Input()
-  question: string;
+  question: any;
 
   @Input()
   theme: string;
@@ -25,7 +26,8 @@ export class CardDetailComponent {
   public answer = 'OK';
 
   showComments = false;
-  comment = '';
+  comments: string[] = ['','',''] ;
+  activeComment: number | null = null;
 
   sendAnswer(answer: string) {
     this.answer = answer;
@@ -44,6 +46,7 @@ export class CardDetailComponent {
     }
     return colors[this.answer];
   }
+
   
 
 }

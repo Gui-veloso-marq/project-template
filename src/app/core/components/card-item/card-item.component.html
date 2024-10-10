@@ -12,6 +12,12 @@
         <!-- <p>Itens: <span *ngIf="item.questions.length as qtd">{{qtd}}</span></p> -->
     <!-- </div> -->
 </div>
-<ng-container *ngIf="showDetails">
-    <app-card-detail *ngFor="let question of item.questions; let i = index" [question]="question" [theme]="getTheme(i)"></app-card-detail>
-</ng-container>
+
+    <ng-container *ngIf="showDetails">
+        <app-card-detail 
+            *ngFor="let question of item.questions; let i = index" 
+            [question]="question" 
+            [theme]="getTheme(i)">
+        </app-card-detail>
+    </ng-container>
+    
