@@ -34,6 +34,47 @@
     </form>
 </section>
 
+<section class="m-4 rounded bg-white">
+    <div class=" p-2 d-flex justify-content-center flex-column align-items-center">
+        <div> Tabela de Auditorias</div>
+        
+        <table class="table table-striped align-items-center">
+            <thead>
+                <tr>
+                  <th scope="col">#ID</th>
+                  <th scope="col">Data</th>
+                  <th scope="col">Auditor</th>
+                  <th scope="col">Estado</th>
+                </tr>
+            </thead>
+            <tr>
+                <td class="linha">123401</td>
+                <td>11/10/24</td>
+                <td>Auditor 2</td>
+                <td>
+                    <div *ngIf="concluido == false">
+                        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#checkModal">Pendente</button>
+                    </div>
+                    <div *ngIf="concluido == true">
+                        <button type="button" class="btn btn-success">Concluído</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="linha">123402</td>
+                <td>11/10/24</td>
+                <td>Auditor 1</td>
+                <td>
+                    <div >
+                        <button type="button" class="btn btn-success">Concluído</button>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+</section>
 
 <div class="modal fade" id="checkModal" tabindex="-1" aria-hidden="true" [ngClass]="{'d-none': cameraOn}">
     <div class="modal-dialog">
@@ -44,11 +85,17 @@
             </div>
             <div class="modal-body d-flex flex-column align-items-center">
                 <form class="w-100 form" >
+                    <label for="" class="form-label mt-2">Unidade</label>
+                    <select name="" id="" class="form-select">
+                        <option value="">Todos</option>
+                        <option value="">Hospital 1</option>
+                        <option value="">Hospital 2</option>
+                    </select>
                     <label for="" class="form-label mt-2">Local</label>
                     <select name="" id="" class="form-select">
                         <option value="">Todos</option>
-                        <option value="">Local 1</option>
-                        <option value="">Local 2</option>
+                        <option value="">Área Cirúrgica</option>
+                        <option value="">Área de TI</option>
                     </select>
                     <label for="" class="form-label mt-2">Auditor</label>
                     <select name="" id="" class="form-select">

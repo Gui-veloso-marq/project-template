@@ -13,6 +13,7 @@ import * as bootsrap from 'bootstrap';
 })
 export class DashboardComponent implements OnInit {
   // public form: FormGroup;
+  concluido = false;
   data =  new Date().toLocaleDateString();
   public cameraOn = false;
   @ViewChild('closeVistoria') closeVistoriaElement;
@@ -42,5 +43,6 @@ export class DashboardComponent implements OnInit {
 
   refresh(): void {
    this.questionarioService.loadQuestions();
+   this.concluido = true;
   }
 }
